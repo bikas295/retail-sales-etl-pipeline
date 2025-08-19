@@ -213,15 +213,6 @@ airflow users create -u admin -p admin -r Admin -f Admin -l User -e admin@exampl
 | total_qty     | BIGINT  |
 | total_revenue | NUMERIC |
 
----
-
-## 💬 Interview Highlights
-
-- Built for **resilience**: handles schema drift, missing columns, type mismatches
-- Modular: clean **Extract → Transform → Load**
-- Upserts for aggregates using Postgres conflict handling
-- Logs schema drift + row drop stats
-- Easily expandable for S3, Spark, or validation tools like Great Expectations
 
 ---
 
